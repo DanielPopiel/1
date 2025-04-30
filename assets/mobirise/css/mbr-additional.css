@@ -1370,7 +1370,7 @@ a {
 }
 .cid-uHAtAAW2ce .card-title,
 .cid-uHAtAAW2ce .iconfont-wrapper {
-  color: #a8a697;
+  color: #676c58;
   text-align: center;
 }
 .cid-uHAtAAW2ce .card-text {
@@ -1436,7 +1436,7 @@ a {
 }
 .cid-uHAtDWqKq9 {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-uHAtDWqKq9 .mbr-fallback-image.disabled {
@@ -1477,6 +1477,51 @@ a {
   color: #676c58;
 }
 .cid-uHAtDWqKq9 .panel-text {
+  color: #a8a697;
+}
+.cid-uJSKrZ5G9L {
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-uJSKrZ5G9L .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uJSKrZ5G9L .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uJSKrZ5G9L .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-uJSKrZ5G9L .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-uJSKrZ5G9L .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #bdb486;
+}
+.cid-uJSKrZ5G9L .panel-body,
+.cid-uJSKrZ5G9L .card-header {
+  padding: 1rem 0;
+}
+.cid-uJSKrZ5G9L .panel-title-edit {
+  color: #676c58;
+}
+.cid-uJSKrZ5G9L H3 {
+  color: #676c58;
+}
+.cid-uJSKrZ5G9L .panel-text {
   color: #a8a697;
 }
 .cid-uHAtEsz9dA {
@@ -1522,10 +1567,10 @@ a {
 .cid-uHAtEsz9dA .card-title,
 .cid-uHAtEsz9dA .card-box {
   text-align: center;
-  color: #a6a99c;
+  color: #757b62;
 }
 .cid-uHAtF7LpYT {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   background: #ffffff;
 }
@@ -2760,51 +2805,6 @@ a {
     left: -1rem;
   }
 }
-.cid-uIfg2FI5Kb {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #edefeb;
-}
-.cid-uIfg2FI5Kb .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-uIfg2FI5Kb .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-uIfg2FI5Kb .card-wrapper {
-  background: #ffffff;
-}
-@media (max-width: 767px) {
-  .cid-uIfg2FI5Kb .card-wrapper {
-    padding: 2rem 1.5rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-uIfg2FI5Kb .card-wrapper {
-    padding: 2.25rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-uIfg2FI5Kb .card-wrapper {
-    padding: 4rem;
-  }
-}
-.cid-uIfg2FI5Kb .mbr-text,
-.cid-uIfg2FI5Kb .mbr-section-btn {
-  color: #676c58;
-  text-align: left;
-}
-.cid-uIfg2FI5Kb .card-title,
-.cid-uIfg2FI5Kb .card-box {
-  text-align: left;
-  color: #a8a697;
-}
 .cid-tJS9NNcTLZ {
   padding-top: 3rem;
   padding-bottom: 4rem;
@@ -3736,15 +3736,15 @@ a {
     left: -1rem;
   }
 }
-.cid-uIf7OToBC4 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #edefeb;
+.cid-uJSeoFoCbO {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
 }
-.cid-uIf7OToBC4 .mbr-fallback-image.disabled {
+.cid-uJSeoFoCbO .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uIf7OToBC4 .mbr-fallback-image {
+.cid-uJSeoFoCbO .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -3753,37 +3753,32 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uIf7OToBC4 .card-wrapper {
-  background: #ffffff;
-}
-@media (max-width: 767px) {
-  .cid-uIf7OToBC4 .card-wrapper {
-    padding: 2rem 1.5rem;
+@media (max-width: 991px) {
+  .cid-uJSeoFoCbO .image-wrapper {
+    margin-bottom: 2rem;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-uIf7OToBC4 .card-wrapper {
-    padding: 2.25rem;
+.cid-uJSeoFoCbO .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-uJSeoFoCbO .image-wrapper {
+    padding: 1rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-uIf7OToBC4 .card-wrapper {
-    padding: 4rem;
+  .cid-uJSeoFoCbO .text-wrapper {
+    padding: 0 2rem;
   }
 }
-.cid-uIf7OToBC4 .mbr-text,
-.cid-uIf7OToBC4 .mbr-section-btn {
-  color: #696156;
+.cid-uJSeoFoCbO .mbr-section-title {
+  color: #a8a697;
   text-align: left;
 }
-.cid-uIf7OToBC4 .card-title,
-.cid-uIf7OToBC4 .card-box {
+.cid-uJSeoFoCbO .mbr-text,
+.cid-uJSeoFoCbO .mbr-section-btn {
+  color: #555948;
   text-align: left;
-  color: #000000;
-}
-.cid-uIf7OToBC4 .mbr-section-subtitle {
-  text-align: center;
-  color: #bdb486;
 }
 .cid-uIfa1vqycJ {
   padding-top: 2rem;
