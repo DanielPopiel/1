@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html  >
 <head>
@@ -71,14 +73,286 @@
     <div class="row justify-content-center">
       <div class="card col-md-12 col-lg-10">
         <div class="card-wrapper">
-          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-5"><strong>Cennik usług podologicznych</strong></h3>
+          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-5"><strong></strong></h3>
           <div class="row card-box align-left">
             
             
             <div class="item features-without-image col-12 active">
               <div class="item-wrapper">
-                
-                <p class="mbr-text mbr-fonts-style display-7">• Konsultacja podologiczna (bezpłatna do zabiegu) – 100 zł<br>• Podstawowy zabieg podologiczny – 150 zł<br>• Podstawowy zabieg podologiczny + hybryda – 180 zł<br>• Rozszerzony zabieg podologiczny – 180 zł<br>• Skrócenie i opracowanie paznokci i wałów zdrowych – 90 zł<br>• Opracowanie paznokci i skórek + hybryda – 120 zł<br>• Skrócenie i opracowanie paznokci zmienionych chorobowo – od 180 zł<br>• Oczyszczenie paznokcia grzybiczego (1 szt.) –<br>• Oczyszczenie paznokcia pourazowego – 110 zł<br>• Rekonstrukcja płytki paznokcia – od 80 zł<br>• Klamra ortonyksyjna – 180 zł<br>• Przestawienie klamry – 160 zł<br>• Terapia brodawki wirusowej (1 szt.) – 120 zł<br>• Terapia brodawek wirusowych (2–3 szt.) – 170 zł<br>• Terapia brodawek wirusowych (4 szt. i więcej) – 230 zł<br>• Doczyszczenie brodawek wirusowych – od 80 zł<br>• Opracowanie podeszwy – 90 zł<br>• Usunięcie odcisku – 90 zł<br>• Modzele/pękające pięty – od 90 zł<br>• Paznokieć wrastający ze stanem zapalnym (1 wizyta) – 250 zł<br>• Nałożenie specjalistycznego opatrunku do zabiegu – 50 zł<br></p>
+
+
+<style>
+  .cennik {
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    color: #7a7d71;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
+  .cennik h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+    text-align: center;
+    color: #52544b;
+  }
+  .cennik ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 2em 0;
+  }
+  .cennik li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 1.8em;
+    min-height: 2.2em;
+  }
+  .cennik li::before {
+    content: "";
+    position: absolute;
+    top: 1.1em;
+    left: 0;
+    right: 0;
+    border-bottom: 1px dotted #bbb;
+    z-index: 0;
+  }
+  .cennik li .service {
+    font-weight: 700;
+    color: #7a7d71;
+    position: relative;
+    padding-right: 10px;
+    background: #fff;
+    z-index: 1;
+    flex: 1 1 auto;
+  }
+  .cennik li .service span {
+    font-weight: 400;
+    color: #7a7d71;
+    font-size: 16px;
+  }
+  .cennik li .price {
+    font-weight: 700;
+    color: #e39165;
+    white-space: nowrap;
+    position: relative;
+    padding-left: 10px;
+    background: #fff;
+    z-index: 1;
+    font-size: 16px;
+    flex: 0 0 auto;
+  }
+  .cennik li .description {
+    display: block;
+    margin-top: 0.3em;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7d71;
+    line-height: 1.4;
+  }
+  .cennik li .sub-description {
+    display: block;
+    margin-top: 0.15em;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7d71;
+    line-height: 1.4;
+    font-style: normal;
+  }
+  .cennik .section-label {
+    font-weight: 700;
+    color: #52544b;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    font-size: 1.05em;
+  }
+  .cennik .indent {
+    padding-left: 1.2em;
+    font-weight: 400;
+  }
+  @media (max-width: 600px) {
+    .cennik { font-size: 0.97em; }
+    .cennik h2 { font-size: 1.2em; }
+    .cennik li { min-height: 2.4em; }
+  }
+</style>
+
+<div class="cennik">
+
+  <h2>Zabiegi podologiczne</h2>
+  <ul>
+    <li>
+      <span class="service">Konsultacja podologiczna <span>(bezpłatna do zabiegu)</span></span>
+      <span class="price">100 zł</span>
+    </li>
+    <li>
+      <span class="service">Wizyta kontrolna <span>(kontrola przebiegu terapii)</span></span>
+      <span class="price">80 zł</span>
+    </li>
+    <li>
+      <span class="service">Podstawowy zabieg podologiczny</span>
+      <span class="price">150 zł</span>
+    </li>
+    <li>
+      <span class="service">
+        <span class="description">
+          Usunięcie podstawowych zrogowaceń oraz zmian w obrębie skóry stóp: modzele, zrogowaciałe pięty, obcięcie i opracowanie paznokci oraz wałów paznokciowych (bez brodawek wirusowych, odcisków i paznokci zmienionych chorobowo), nałożenie preparatów pielęgnacyjnych, edukacja dotyczącą pielęgnacji domowej.
+        </span>
+      </span>
+    </li>
+  </ul>
+  <div class="section-label">Dodatkowo płatne do PZP:</div>
+  <ul>
+    <li class="indent">
+      <span class="service">Usunięcie odcisku (1 sztuka)</span>
+      <span class="price">+20 zł</span>
+    </li>
+    <li class="indent">
+      <span class="service">Tamponada z opatrunkiem aktywnym (1 palec)</span>
+      <span class="price">+20 zł</span>
+    </li>
+    <li class="indent">
+      <span class="service">Pękające pięty</span>
+      <span class="price">+40 zł</span>
+    </li>
+    <li class="indent">
+      <span class="service">Zdjęcie hybrydy po innej stylistce</span>
+      <span class="price">+15 zł</span>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <span class="service">Podstawowy Zabieg Podologiczny + hybryda <span>(zdjęcie stylizacji po innej stylistce +15 zł)</span></span>
+      <span class="price">180 zł</span>
+    </li>
+    <li>
+      <span class="service">Rozszerzony Zabieg Podologiczny</span>
+      <span class="price">od 190 zł</span>
+    </li>
+    <li>
+      <span class="service">Rozszerzony zabieg podologiczny + hybryda</span>
+      <span class="price">220 zł</span>
+    </li>
+  </ul>
+
+  <h2>Terapie paznokci</h2>
+  <ul>
+    <li>
+      <span class="service">Skrócenie paznokci zdrowych</span>
+      <span class="price">60 zł</span>
+    </li>
+    <li>
+      <span class="service">Skrócenie paznokci dystroficznych</span>
+      <span class="price">100 zł</span>
+    </li>
+    <li>
+      <span class="service">Skrócenie i opracowanie paznokci i wałów paznokciowych <span>(zdrowych)</span></span>
+      <span class="price">110 zł</span>
+    </li>
+    <li>
+      <span class="service">Skrócenie i opracowanie paznokci zmienionych chorobowo
+        <span class="description">Obcięcie i opracowanie paznokci przerośniętych, dystroficznych, zrogowaciałych, oczyszczenie paznokci łuszczycowych, oczyszczenie wałów paznokciowych.</span>
+      </span>
+      <span class="price">250 zł</span>
+    </li>
+    <li>
+      <span class="service">Skrócenie i doczyszczenie paznokci zmienionych chorobowo
+        <span class="description">do 6 tygodni</span>
+      </span>
+      <span class="price">180 zł</span>
+    </li>
+    <li>
+      <span class="service">Oczyszczenie paznokcia grzybiczego (1 sztuka)
+        <span class="description">Obcięcie i oczyszczenie paznokcia ze zmian chorobowych, dobór preparatów leczniczych, omówienie dalszej terapii</span>
+      </span>
+      <span class="price">130 zł</span>
+    </li>
+    <li>
+      <span class="service">Opracowanie paznokci i skórek + hybryda</span>
+      <span class="price">130 zł</span>
+    </li>
+    <li>
+      <span class="service">Skrócenie i opracowanie paznokci zmienionych chorobowo</span>
+      <span class="price">od 180 zł</span>
+    </li>
+    <li>
+      <span class="service">Oczyszczenie paznokcia grzybiczego (1 szt.)</span>
+      <span class="price">100 zł</span>
+    </li>
+    <li>
+      <span class="service">Oczyszczenie paznokcia pourazowego</span>
+      <span class="price">od 110 zł</span>
+    </li>
+    <li>
+      <span class="service">Rekonstrukcja płytki paznokcia</span>
+      <span class="price">od 80 zł</span>
+    </li>
+    <li>
+      <span class="service">Klamra ortonyksyjna</span>
+      <span class="price">180 zł</span>
+    </li>
+    <li>
+      <span class="service">Przestawienie klamry</span>
+      <span class="price">160 zł</span>
+    </li>
+    <li>
+      <span class="service">Paznokieć wrastający ze stanem zapalnym (1 wizyta)
+        <span class="description">Obejmuje usunięcie elementu drażniącego, opracowanie wałów okołopaznokciowych, nałożenie specjalistycznego opatrunku, omówienie dalszej terapii i postępowania.</span>
+      </span>
+      <span class="price">200 zł</span>
+    </li>
+  </ul>
+
+  <h2>Terapie skórne</h2>
+  <ul>
+    <li>
+      <span class="service">Terapia brodawki wirusowej (1 sztuka)</span>
+      <span class="price">120 zł</span>
+    </li>
+    <li>
+      <span class="service">Terapia brodawek wirusowych (2–3 sztuki)</span>
+      <span class="price">170 zł</span>
+    </li>
+    <li>
+      <span class="service">Terapia brodawek wirusowych (4 sztuki i więcej)</span>
+      <span class="price">230 zł</span>
+    </li>
+    <li>
+      <span class="service">Doczyszczenie brodawek wirusowych</span>
+      <span class="price">od 80 zł</span>
+    </li>
+    <li>
+      <span class="service">Usunięcie odcisku</span>
+      <span class="price">od 90 zł</span>
+    </li>
+    <li>
+      <span class="service">Modzele / pękające pięty / zrogowacenia</span>
+      <span class="price">od 110 zł</span>
+    </li>
+  </ul>
+
+  <h2>Dodatkowe usługi</h2>
+  <ul>
+    <li>
+      <span class="service">Wizyty mobilne <span>(usługa wyceniana indywidualnie w zależności od miejsca oraz zabiegów, <b>nie wykonuję malowania hybrydowego z dojazdem</b>)</span></span>
+      <span class="price">+30% do ceny podstawowej zabiegów + dojazd</span>
+    </li>
+    <li>
+      <span class="service">Nałożenie specjalistycznego opatrunku do zabiegu</span>
+      <span class="price">50 zł</span>
+    </li>
+    <li>
+      <span class="service">Usunięcie hybrydy po poprzedniej stylistce</span>
+      <span class="price">15 zł</span>
+    </li>
+  </ul>
+
+</div>
+
+
+
               </div>
             </div>
             
